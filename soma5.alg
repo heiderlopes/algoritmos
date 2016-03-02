@@ -5,21 +5,24 @@ algoritmo "soma5"
 // Data : 02/03/2016
 // Seção de Declarações 
 var
-   n1, n2, n3, n4, n5 : inteiro
-   r : inteiro
-
+   soma, valor : inteiro
 
 inicio
+      soma <- 0
       escreval("Digite o valor 1: ")
-      leia(n1)
+      leia(valor)
+      soma <- soma + valor
       escreval("Digite o valor 2: ")
-      leia(n2)
+      leia(valor)
+      soma <- soma + valor
       escreval("Digite o valor 3: ")
-      leia(n3)
+      leia(valor)
+      soma <- soma + valor
       escreval("Digite o valor 4: ")
-      leia(n4)
+      leia(valor)
+      soma <- soma + valor
       escreval("Digite o valor 5: ")
-      leia(n5)
-      r <- n1 + n2 + n3 + n4 + n5
-      escreva("O resultado da soma e ", r)
+      leia(valor)
+      soma <- soma + valor
+      escreva("O resultado da soma e ", soma)
 fimalgoritmo
